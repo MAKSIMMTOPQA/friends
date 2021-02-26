@@ -28,6 +28,7 @@ gem 'devise', '~> 4.7', '>= 4.7.3'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'ffi', '>=1.14.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
