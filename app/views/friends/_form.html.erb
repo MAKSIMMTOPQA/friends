@@ -36,6 +36,11 @@
     placeholder:"Twitter" %></p>
   </div>
   
+  <div class="field form-group">
+    <p><%= form.number_field :user_id, id: :friend_user_id, type: :hidden, value: current_user.id,  class:"form-control",
+    placeholder:"User_id" %></p>
+  </div>
+
   <div class="actions">
     <p><%= form.submit class:"btn btn-success" %></p>
   </div>
